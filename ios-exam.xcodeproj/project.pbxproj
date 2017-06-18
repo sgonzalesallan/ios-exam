@@ -90,20 +90,44 @@
 		9D4002DC1EF6D79D00879E1B /* ios-exam */ = {
 			isa = PBXGroup;
 			children = (
+				9DEE777F1EF6F062001EB563 /* Controller */,
+				9DEE777E1EF6F056001EB563 /* Model */,
+				9DEE777D1EF6F048001EB563 /* Helpers */,
 				9D47AE121EF6E0C500A51867 /* GoogleService-Info.plist */,
 				9D4002DD1EF6D79D00879E1B /* AppDelegate.swift */,
 				9D4002E11EF6D79D00879E1B /* Main.storyboard */,
 				9D4002E41EF6D79D00879E1B /* Assets.xcassets */,
 				9D4002E61EF6D79D00879E1B /* LaunchScreen.storyboard */,
 				9D4002E91EF6D79D00879E1B /* Info.plist */,
+			);
+			path = "ios-exam";
+			sourceTree = "<group>";
+		};
+		9DEE777D1EF6F048001EB563 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
 				9D4002EF1EF6DBA200879E1B /* Service.swift */,
-				9D47AE101EF6E08700A51867 /* Extension.swift */,
-				9D47AE141EF6E35400A51867 /* Person.swift */,
 				9D47AE161EF6E60500A51867 /* Default.swift */,
+				9D47AE101EF6E08700A51867 /* Extension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		9DEE777E1EF6F056001EB563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D47AE141EF6E35400A51867 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9DEE777F1EF6F062001EB563 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				9D47AE181EF6E7A600A51867 /* PersonListViewController.swift */,
 				9D47AE1A1EF6E8B800A51867 /* PersonViewController.swift */,
 			);
-			path = "ios-exam";
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
